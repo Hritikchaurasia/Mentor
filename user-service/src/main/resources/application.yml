@@ -1,0 +1,14 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: 
+      database: mentor
+
+eureka:
+  instance:
+    hostname: localhost
